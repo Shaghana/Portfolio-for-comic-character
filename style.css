@@ -1,0 +1,132 @@
+/*Setting all margins and paddings to zero using universal selector*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: 'Belanosima', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'REM', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+.section-1{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.section-1__Name{
+    font-size: 45px;
+}
+
+.section-1__Role{
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+.section-1__Quiz{
+    background-color: yellow;
+    color: black;
+    text-decoration: none; /* to remove the hyperlink line*/
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 50%;
+   display: inline-block;
+}
+
+
+.section-2,.section-3,.section-4,.section-5{
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.section-2__title,.section-3__title,.section-4__title,.section-5__reference{
+     padding: 5px;
+    margin-top: 5px;
+
+}
+
+.section-2__desc,.section-3__desc,.section-4__desc,.section-5__copyright{
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.section-5{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+/*mentioning space a with a specified classname, selects the a tag present in the pargraph tag*/
+.section-5__reference a{ 
+    color: skyblue;
+}
+
+/*To remove the dots present in the list tag*/
+.section-3 li,.section-4 li{
+    list-style: none;
+
+}
+
+.section-3{
+    background-color:#C4431B ;
+    color:black;
+    height:200px;
+    width:15%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: top; /*To align the container*/
+
+}
+
+.section-4{
+    background-color:#C3B61F ;
+    color:black;
+    height:200px;
+    width: 80%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+/*Styling QuizGame form*/
+.QuizGame{
+    margin-top: 20px;
+    padding:10px;
+    bottom: solid black 5px;
+   
+
+}
+
+
+.QuizGame_input{
+    padding:15px;
+    border: none;
+    border-bottom: solid black 1px;
+    width:150px;
+    
+}
+
+.QuizGame_select{
+    padding:15px;
+}
+
+.QuizGame_textarea{
+    padding:15px;
+}
+
+.QuizGame_reset{
+    padding-top: 10px;
+    padding-bottom:10px;;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: yellow;
+    color: black;
+}

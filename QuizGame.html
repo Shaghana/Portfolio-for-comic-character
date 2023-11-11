@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizGame</title>
+
+    <!--Linking CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Linking young sarif from google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Belanosima&family=Poppins&family=REM&family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+    <div class="section-1">
+        <h1 class="section-1__Name">Shin-chan Quiz Game</h1>
+        <p class="section-1__Role">Do Self-Evaluation by comparing the info given in Home page</p>
+        <a class="section-1__Quiz" href="index.html"">Home</a>
+    </div>
+    <div class="QuizGame">
+    <form>
+        <table>
+            <tr>
+                <td>Cartoon Name</td>
+                <td><input class="QuizGame_input" type="text" placeholder="Enter your CartoonName" </td>
+            </tr>
+
+            <tr>
+                <td>1st telecasted year</td>
+                <td><input class="QuizGame_input" type="number" placeholder="Number of movies telecasted" </td>
+            </tr>
+
+            <tr>
+                <td>Genre</td>
+                <td><select class="QuizGame_select">
+                        <option>Comedy, Slice of life</option>
+                        <option>Science fiction</option>
+                        <option>Horror</option>
+                        <option>None of the above</option>
+                    </select></td>
+            </tr>
+
+            <tr>
+                <td>Movie</td>
+                <td><textarea class="QuizGame_textarea" class="qui"placeholder="Enter anyone movie "></textarea>
+            </tr>
+
+            <tr>
+                <td>Motive of the series</td>
+                <td><input class="QuizGame_input" type="text" placeholder="Describe in a line" </td>
+            </tr>
+
+            <tr>
+                <td> </td>
+                <td><input class="QuizGame_reset" type="reset" </td>
+            </tr>
+
+        </table>
+
+        <div class="section-5">
+            <p class="section-5__media">References:
+                <a href="https://en.wikipedia.org/wiki/Crayon_Shin-chan">Wikipedia </a>
+        
+            </p>
+        
+            <p class="section-5__copyright">&copy;Shin-chan</p>
+            </div>
+
+    </form>
+    </div>
+</div>
+</body>
+
+</html>
